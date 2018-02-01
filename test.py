@@ -5,46 +5,47 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
+
 cl = LINETCR.LINE()
 cl.login(token="EoDMfQ5bOP6jodasom10.bo1Kf/gskKoEwYxs0v7zua.9jGz6aRKwyMx1YsZnQSeazspnR3SGS3ixE0DCEVBQPg=")
 #cl.login(token="EoYmkcRp1pqeUFA7hVfa.OCTUHf+O8MrV6kxfKrHb/G.uSdqvIGf3o7vnfHVzYEQzrq6MN15xois2wzfqEk96XA=")
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(token="EoqhM018YneEfe3swTYa.gvkdf5H6cMllyS3Mf6HhAG.2OnRzV5sG0/NK7Ug9AdAbClr9F27Eq5D5FUTPyFcDJY=")
-ki.loginResult()
+#ki = LINETCR.LINE()
+#ki.login(token="EoqhM018YneEfe3swTYa.gvkdf5H6cMllyS3Mf6HhAG.2OnRzV5sG0/NK7Ug9AdAbClr9F27Eq5D5FUTPyFcDJY=")
+#ki.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(token="EoHlnySU3i7f00sxWXQ0.zdI8/e53h+Gr0l8gt33maa.4PYKdbQikQ6fkqBBxN98k2k4xJe++gaeLPPK3pulx/I=")
-kk.loginResult()
+#kk = LINETCR.LINE()
+#kk.login(token="EoHlnySU3i7f00sxWXQ0.zdI8/e53h+Gr0l8gt33maa.4PYKdbQikQ6fkqBBxN98k2k4xJe++gaeLPPK3pulx/I=")
+#kk.loginResult()
 
-kc = LINETCR.LINE()
-kc.login(token="EoHDaELez8W0b7b1KOXb.n5G7h/7wTBF/rKTjoaAawW.75z0wOYCACqcV5f57JDgmqf+yyOUx+jSot+EXGO7siA=")
-kc.loginResult()
+#kc = LINETCR.LINE()
+#kc.login(token="EoHDaELez8W0b7b1KOXb.n5G7h/7wTBF/rKTjoaAawW.75z0wOYCACqcV5f57JDgmqf+yyOUx+jSot+EXGO7siA=")
+#kc.loginResult()
 
-kd = LINETCR.LINE()
-kd.login(token="EoqMKld11oRA8Xw2lkG0.U2t3FkQ9wbgmWnBJrVtEea.orIxIxdH4k0bIWbXkI1wdeFHRVYfbu2Ytv00or4bba8=")
-kd.loginResult()
+#kd = LINETCR.LINE()
+#kd.login(token="EoqMKld11oRA8Xw2lkG0.U2t3FkQ9wbgmWnBJrVtEea.orIxIxdH4k0bIWbXkI1wdeFHRVYfbu2Ytv00or4bba8=")
+#kd.loginResult()
 
-ke = LINETCR.LINE()
-ke.login(token="EoNQcqufWYdvGQpiF580.jIxNXWLPHbxxvm/gsLAeCa.pl+8+rsrpJordTOTXaDxuVceRrnpmCvPJilniJDJW40=")
-ke.loginResult()
+#ke = LINETCR.LINE()
+#ke.login(token="EoNQcqufWYdvGQpiF580.jIxNXWLPHbxxvm/gsLAeCa.pl+8+rsrpJordTOTXaDxuVceRrnpmCvPJilniJDJW40=")
+#ke.loginResult()
 
-kf = LINETCR.LINE()
-kf.login(token="Eo52Um185O30I2fLNOke.tjCuQHDZ+qlVZNls7BQ6dG.Is3+bMu92Y8honSJdpKAaNH4OglR5HLNV8jJBg3IUIY=")
-kf.loginResult()
+#kf = LINETCR.LINE()
+#kf.login(token="Eo52Um185O30I2fLNOke.tjCuQHDZ+qlVZNls7BQ6dG.Is3+bMu92Y8honSJdpKAaNH4OglR5HLNV8jJBg3IUIY=")
+#kf.loginResult()
 
-kg = LINETCR.LINE()
-kg.login(token="Eo23ruSATdt7bzyyEEU2.OQqjB9dJhQErfsVfrONXyG.2vJWZIyiyPeOk6tF+ZBnxeacZh2DCmLfw/jmOg0YeYM=")
-kg.loginResult()
+#kg = LINETCR.LINE()
+#kg.login(token="Eo23ruSATdt7bzyyEEU2.OQqjB9dJhQErfsVfrONXyG.2vJWZIyiyPeOk6tF+ZBnxeacZh2DCmLfw/jmOg0YeYM=")
+#kg.loginResult()
 
-kh = LINETCR.LINE()
-kh.login(token="Eokvf1UaRrpeF6Nbxc06.U7Gvr9sujvBq7JF8IAZ7nG.N595QKqEnpWtl/ioFkOHQHPVmmy9UBKpsjXUWTYuiW8=")
-kh.loginResult()
+#kh = LINETCR.LINE()
+#kh.login(token="Eokvf1UaRrpeF6Nbxc06.U7Gvr9sujvBq7JF8IAZ7nG.N595QKqEnpWtl/ioFkOHQHPVmmy9UBKpsjXUWTYuiW8=")
+#kh.loginResult()
 
-kj = LINETCR.LINE()
-kj.login(token="EoJ1pDvZZ90YlsM8uli9.MTkPFefXHLbv67jvH0JCsq./Dz4MIp1zV7b1zlChPuZn37BnLrW/+230eMSUadvleA=")
-kj.loginResult()
+#kj = LINETCR.LINE()
+#kj.login(token="EoJ1pDvZZ90YlsM8uli9.MTkPFefXHLbv67jvH0JCsq./Dz4MIp1zV7b1zlChPuZn37BnLrW/+230eMSUadvleA=")
+#kj.loginResult()
 
 #kl = LINETCR.LINE()
 #kl.login(token="EnDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
@@ -84,13 +85,13 @@ kj.loginResult()
 
 cl
 
-print "──────┅═ই۝ई═┅────── ล็อคอินBy.มินทีมทดลองบอทสำเร็จ ──────┅═ই۝ई═┅──────"
+print "──────┅═ই۝ई═┅────── ล็อคอินBy.SAKIDTEEN~SELFBOTสำเร็จ ──────┅═ই۝ई═┅──────"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""──────┅═ই۝ई═┅──────
              ✯✯❇Thailand❇✯✯
-      [By.มินทีมทดลองบอท]
-http://line.me/ti/p/~socool290
+      [By.BOT~SAKIDTEEN]
+http://line.me/ti/p/~sosid001
 ──────┅═ই۝ई═┅──────
 ❂͜͡☆➣ Tagall •แท๊กสมาชิกทั้งกลุ่ม
 ❂͜͡☆➣ Mention แท๊กกลุ่ม
@@ -191,16 +192,16 @@ http://line.me/ti/p/~socool290
 ❂͜͡☆➣ Error! ล้างกลุ่ม
 ❂͜͡☆➣ Run group  รันกลุ่ม
 ❂͜͡☆➣ Man1-Man18  ข้อมูลบอท
-Help2-Hp2-Min set-Set protect-Min key
+Help2-Hp2-Ky set-Set protect-Ky key
 ──────┅═ই۝ई═┅──────
-        နับთิஏთั้ଏบਹທ Sirichan V⒑
-สนใจติดต่อที่.. •─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•
-https://line.me/R/ti/p/%40uvh1233u
+    ༺•㏒✯〘•CREATOR•〙✯㏒•༻
+┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅
+https://line.me/R/ti/p/sosid001
 ──────┅═ই۝ई═┅──────   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 """
 helpMessage2 ="""╔═════════════════════╗
-║•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•
+║  ┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅
 ╠═════════════════════╝
 ║[Massage add: "text"]:
 ║[Add confirmasi]:
@@ -212,7 +213,7 @@ helpMessage2 ="""╔════════════════════
 ║[Unban]: "Dalate blacklist"
 ║[Banlist]: "Check blacklist"
 ╠═════════════════════╗
-║         〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
+║         ༺•㏒.ƇƠMMƛƝƊƧ ƧЄƬ. ㏒•༻
 ╠═════════════════════╝
 ║[Contact: on/off]
 ║[Auto join: on/off]
@@ -224,7 +225,7 @@ helpMessage2 ="""╔════════════════════
 ║[Auto add: on/off]
 ║[Auto like: on/off]
 ╠═════════════════════╗
-║       ⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
+║༺•㏒.ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ㏒•༻
 ╠═════════════════════╝
 ║[Ban " @Tag]:
 ║[Unban " @Tag]:
@@ -242,20 +243,61 @@ helpMessage2 ="""╔════════════════════
 ║[Block url: on/off]:
 ║[Namelock: on/off]:
 ║[Blockinvite: on/off]:
+╠═════════════════════╗
+║      ✥हई✯ใบออคลับ↭ざะπิஇෆদีʨ✯ईह✥
 ╚═════════════════════╝
+║มีผุ้กล่าวถึงคุณ
+║
+วันนี้เรามีคลับสะกิดตีนสะกิดติ่งมาเสนอมีพร้อมความฮาความเกรียนความบันเทิงทุกๆรุปแบบ แค่มึงมีความตั้งใจอยากกวนตีนแบบสะกิดตรีนมาออได้เลยพวกกุรอยุ มาออกันเยอะๆเดะพวกกุจะพามึงบันเทิง
+(เท้า)คลับ สะกิดตรีน(เท้า)
+
+👏การออง่ายๆๆ👏
+
+(เท้า)ขอแค่มึง🔒👉มาด้วยใจ💓💓
+(เท้า)รักคลับ รักพี่น้อง
+(เท้า)ไม่ตอแหล
+(เท้า)ไม่หนอน
+(เท้า)กล้าลุยตลอดเวลา
+(เท้า)ไม่เรื่องมาก
+(เท้า)ไม่ทะเลาะกันเองในคลับ
+(เท้า)พร้อมใส่ชื่อ..ปก..กะ..สัญ
+↘↘ถ้ามึงกัวโดนรันไม่ต้องมา
+......กูก็ให้ผ่านแล้ว......
+
+ย้ำ (!)(!)แอดไม่อออย่าเสือกแอดไม่งั้นผลที่ได้ร้ายกว่าจิ้มแอดมานะ 
+
+
+😘มาด้วยใจกูขอให้ผ่าน😘
+👏👏👏👏👏👏👏👏👏
+
+        💜ออได้ที่💜
+👇👇👇👇👇👇👇👇
+พี่มิ้น👉รับออ
+http://line.me/ti/p/~250_9 
+พี่ชาย👉รับออ
+http://line.me/ti/p/~kkol456
+พี่เอิน👉รับออ
+http://line.me/ti/p/_TAC0MfvQe
+🔔🔔มาออกันเยอะๆ🔔🔔 
+👉ไม่อออย่าเสือกแอด👈
+👉แอดไม่ทักกุจับรัน!!👈
+
+⚠..หลังจากพวกมึง ออผ่านแล้ว..⚠
+📌📌..อย่าลืมเส้นไหว้สิ่งศักสิทธิ์ในห้อง ออ ด้วย น้ำแดง ขาหมู และกัญชาพันลำ เพื่อความสุขของตนเอง และเพื่อนพ้อง ตลอดไป..📌📌📌
+
 """
 
-KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = kd.getProfile().mid
-Emid = ke.getProfile().mid
-Fmid = kf.getProfile().mid
-Gmid = kg.getProfile().mid
-Hmid = kh.getProfile().mid
-Jmid = kj.getProfile().mid
+#Amid = ki.getProfile().mid
+#Bmid = kk.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Dmid = kd.getProfile().mid
+#Emid = ke.getProfile().mid
+#Fmid = kf.getProfile().mid
+#Gmid = kg.getProfile().mid
+#Hmid = kh.getProfile().mid
+#Jmid = kj.getProfile().mid
 #Lmid = kl.getProfile().mid
 #Mmid = km.getProfile().mid
 #Nmid = kn.getProfile().mid
@@ -272,12 +314,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid]
-self = ["u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid]
-admin = "u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa"
-owner = "u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa"
-admsa = "u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa"
-adminMID = "u04ed6417e1922a439e5b25d2d15ed950""ua1cb6e845fe8f2646fe8a5c5911841fa"
+Bots = ["u39b98d8a2032c9bb289f583811a2b941",mid]
+self = ["u39b98d8a2032c9bb289f583811a2b941",mid]
+admin = "u39b98d8a2032c9bb289f583811a2b941"
+owner = "u39b98d8a2032c9bb289f583811a2b941"
+admsa = "u39b98d8a2032c9bb289f583811a2b941"
+adminMID = "u39b98d8a2032c9bb289f583811a2b941"
 wait = {
     "alwayRead":False,
     "detectMention":False,    
@@ -335,59 +377,59 @@ mybackup.displayName = contact.displayName
 mybackup.statusMessage = contact.statusMessage
 mybackup.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki.getProfile()
+#backup = ki.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kk.getProfile()
-backup = kk.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kk.getProfile()
+#backup = kk.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kc.getProfile()
-backup = kc.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kc.getProfile()
+#backup = kc.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kd.getProfile()
-backup = kd.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kd.getProfile()
+#backup = kd.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ke.getProfile()
-backup = ke.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ke.getProfile()
+#backup = ke.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kf.getProfile()
-backup = kf.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kf.getProfile()
+#backup = kf.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kg.getProfile()
-backup = kg.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kg.getProfile()
+#backup = kg.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kh.getProfile()
-backup = kh.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kh.getProfile()
+#backup = kh.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = kj.getProfile()
-backup = kj.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = kj.getProfile()
+#backup = kj.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 #contact = kl.getProfile()
 #backup = kl.getProfile()
@@ -2308,11 +2350,11 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "ua1cb6e845fe8f2646fe8a5c5911841fa":
+                if msg.from_ == "u39b98d8a2032c9bb289f583811a2b941":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -2330,7 +2372,7 @@ def bot(op):
                 cl.like(url[25:58], url[66:], likeType=1001)
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["Min@@"]:
+            if msg.text.lower() in ["Kie@@"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2385,7 +2427,7 @@ def bot(op):
                 if jml > 500:
                     cl.sendText(msg.to,'Member melebihi batas.')
                 cnt = Message()
-                cnt.text = "[Member List TAG number : " + str(jml) +  " Members]\n•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•"
+                cnt.text = "[Member List TAG number : " + str(jml) +  " Members]\n┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅"
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
 #------------------------------------
@@ -2393,7 +2435,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["อย่าแท็กกู กูไม่ว่าง!!",cName + " มีปัญหาอะไร ?!",cName + " หยุดแท็กเหอะ ถ้าสำคัญจริงก็คอลมา","ยังๆ ยังไม่หยุด","ขอร้องเหอะตีป้อมอยู่!!", cName + " ทำไมต้องแท็ก?" + cName, "ชอบแท็กนักหราา " + cName, "คุณเป็นใคร? " + cName + "?", "เห้ออ.." + cName + "?","ขาดความอบอุ่นหราาา ","== ww =="]
+                     balas = ["อย่าแท็กกู กูไม่ว่าง!!",cName + " มีปัญหาอะไร ?!",cName + " หยุดแท็กเหอะ ถ้าสำคัญจริงก็คอลมา","ยังๆ ยังไม่หยุด","ขอร้องเหอะ.กุว่าวอยู่!!", cName + " ทำไมต้องแท็ก?" + cName, "ชอบแท็กนักหราา " + cName, "คุณเป็นใคร? " + cName + "?", "เห้ออ.." + cName + "?","ขาดความอบอุ่นหราาา ","== ww =="]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -2431,9 +2473,9 @@ def bot(op):
                     for jj in matched_list:
                         ki.kickoutFromGroup(msg.to,[jj])
                         pass
-            elif msg.text.lower() in ["admins","mee"]:
+            elif msg.text.lower() in ["admins","me","]:
                 msg.contentType = 13
-                adm = 'ua1cb6e845fe8f2646fe8a5c5911841fa'
+                adm = 'u39b98d8a2032c9bb289f583811a2b941'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"Add Line http://line.me/ti/p/~socool290")
@@ -2549,9 +2591,9 @@ def bot(op):
                 print "MEMBER HAS KICKOUT FROM THE GROUP"
 #------------------------------------
 #========================================
-            elif msg.text in ["Setth"]:
+            elif msg.text in ["เชคค่า"]:
                 print "Setting pick up..."
-                md = "─┅══ईह ㏒ Ᵽɧëȶ ㏒ ईह══┅─\n\n"
+                md = "─┅══ईह•㏒✯°ℓຫຼี้छπี้°✯㏒•ईह══┅─\n\n"
                 if wait["likeOn"] == True: md+="􀬁􀆐􏿿 อัตโนมัติไลค์ : เปิด 􀜁􀄯􏿿\n"
                 else:md+="􀬁􀆐􏿿 อัตโนมัติไลค์ : ปิด 􀜁􀄰􏿿\n"
                 if wait["alwayRead"] == True: md+="􀬁􀆐􏿿 อัตโนมัติอ่าน : เปิด 􀜁􀄯􏿿\n"
@@ -2563,7 +2605,7 @@ def bot(op):
                 if wait["Notifed"] == True: md+="􀬁􀆐􏿿 เเจ้งเตือนต้อนรับตนเอง : เปิด 􀜁􀄯􏿿\n"
                 else:md+="􀬁??􏿿 เเจ้งเตือนต้อนรับตนเอง : ปิด 􀜁􀄰􏿿\n"
                 if wait["Notifedbot"] == True: md+="􀬁􀆐􏿿 เเจ้งเตือนต้อนรับบอท : เปิด 􀜁􀄯􏿿\n"
-                else:md+="􀬁􀆐􏿿 เเจ้งเตือนต้อนรับบอท : ปิด 􀜁􀄰􏿿\n"
+                else:md+="??􀆐􏿿 เเจ้งเตือนต้อนรับบอท : ปิด 􀜁􀄰􏿿\n"
                 if wait["winvite"] == True: md+="􀬁􀆐􏿿 การเชิญ : เปิด 􀜁􀄯􏿿\n"
                 else:md+="􀬁􀆐􏿿 การเชิญ : ปิด 􀜁􀄰􏿿\n"
                 if wait["pname"] == True: md+="􀬁􀆐􏿿 ล๊อกชื่อกลุ่ม : เปิด 􀜁􀄯􏿿\n"
@@ -2595,7 +2637,7 @@ def bot(op):
 #========================================
             elif msg.text in ["Set"]:
                 print "Setting pick up..."
-                md = "─┅══ईह ㏒ Ᵽɧëȶ ㏒ ईह══┅─\n\n"
+                md = "─┅══ईह•㏒✯°ℓຫຼี้छπี้°✯㏒•ईह══┅─\n\n"
                 if wait["likeOn"] == True: md+="􀬁􀆐􏿿 Auto like : on 􀜁􀄯􏿿\n"
                 else:md+="􀬁􀆐􏿿 Auto like : off 􀜁􀄰􏿿\n"
                 if wait["alwayRead"] == True: md+="􀬁􀆐􏿿 Read : on 􀜁􀄯􏿿\n"
@@ -2640,7 +2682,7 @@ def bot(op):
 #-------------------------------------
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["Tagall"]:
+            if msg.text.lower() in ["Tagall","แทค"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2695,7 +2737,7 @@ def bot(op):
                 if jml > 500:
                     cl.sendText(msg.to,'Member melebihi batas.')
                 cnt = Message()
-                cnt.text = "[Member List TAG number : " + str(jml) +  " Members]\n\n──────┅═ই۝ई═┅──────\nနับთิஏთั้ଏบਹທ.. Sirichan V⒑\nรับเขียนบอทกันรัน - แท๊กได้ทั้งกลุ่ม\nทักมาสอบถามรายละเอียดได้ครับ  คลิ้กลิงก์↲\n📧https://line.me/R/ti/p/%40uvh1233u\n──────┅═ই۝ई═┅──────"
+                cnt.text = "[Member List TAG number : " + str(jml) +  " Members]\n\n──────┅═ই۝ई═┅──────\nสนใจเปิดกล้องเสียว โฟนเสียว หรือนัดสถานที่\nเอาสดแตกใน ได้ทุกรูปแบบความมันส์..อ๊าสส..ส คลิ้กลิงก์นี้สิ↲\n📧https://line.me/R/ti/p\n──────┅═ই۝ई═┅──────"
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
 
@@ -2903,7 +2945,7 @@ def bot(op):
                 msg.contentMetadata = {'mid': Tmid}
                 cl.sendMessage(msg)
                 
-            elif "Me" == msg.text:
+            elif "คท" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
                 cl.sendMessage(msg)
@@ -3195,10 +3237,10 @@ def bot(op):
 
             elif msg.text.lower() in ["admin","creator"]:
                 msg.contentType = 13
-                adm = 'ud24af63fd62d14c3bf8f719df80c3745'
+                adm = 'u39b98d8a2032c9bb289f583811a2b941'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"──────┅═ই۝ई═┅──────\nနับთิஏთั้ଏบਹທ  Sirichan V⒑\nสนใจติดต่อที่.. ѕєʟғвот[Min]κɪcκєʀ\n http://line.me/ti/p/~socool290 \n──────┅═ই۝ई═┅──────")
+                cl.sendText(msg.to,"──────┅═ই۝ई═┅──────\nรับจ้างเกรียนทุกรูปแบบ แล้วแต่ประสงค์\nสนใจติดต่อที่.. \n http://line.me/ti/p/~sosid001 \n──────┅═ই۝ई═┅──────")
 
             elif msg.text in ["Man gift","ของขวัญ"]:
                 msg.contentType = 9
@@ -3565,7 +3607,7 @@ def bot(op):
                         kr.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
                         kt.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\nBy•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• \n📧https://line.me/R/ti/p/%40uvh1233u")
+                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\nBy•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• \n📧https://line.me/R/ti/p/~sosid001")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -3577,47 +3619,47 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        ki.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         ki.leaveGroup(msg.to)
-                        kk.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kk.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kk.leaveGroup(msg.to)
-                        kc.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kc.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kc.leaveGroup(msg.to)
-                        kd.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kd.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kd.leaveGroup(msg.to)
-                        ke.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Mim]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        ke.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         ke.leaveGroup(msg.to)
-                        kf.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kf.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kf.leaveGroup(msg.to)
-                        kg.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kg.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kg.leaveGroup(msg.to)
-                        kh.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kh.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kh.leaveGroup(msg.to)
-                        kj.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kj.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kj.leaveGroup(msg.to)
-                        kl.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kl.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kl.leaveGroup(msg.to)
-                        km.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        km.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         km.leaveGroup(msg.to)
-                        kn.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kn.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kn.leaveGroup(msg.to)
-                        ko.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        ko.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         ko.leaveGroup(msg.to)
-                        kp.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kp.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kp.leaveGroup(msg.to)
-                        kq.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kq.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kq.leaveGroup(msg.to)
-                        kr.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kr.sendText(msg.to,"•┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kr.leaveGroup(msg.to)
-                        ks.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        ks.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         ks.leaveGroup(msg.to)
-                        kt.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n Bye~Bye ["  +  str(ginfo.name)  + "]")
+                        kt.sendText(msg.to,"┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n Bye~Bye ["  +  str(ginfo.name)  + "]")
                         kt.leaveGroup(msg.to)
                     except:
                         pass
 
-            elif "V10" in msg.text:
-                cl.sendText(msg.to,"""•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•\n\n
+            elif"V10" in msg.text:
+                cl.sendText(msg.to,"""┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅\n\n
 နับთิஏთั้ଏบਹທ Sirichan V⒑
 คำสั่งบอท siri
 คำนี้เป็นการล็อกห้องสั่งแล้วทุกคนจะทำอะไรไม่ได้นอกจากเจ้าของห้องทำได้คนเดียวเช่น•เปิดลิงค์•เชิญเพื่อน•เปลี่ยนรูปกลุ่ม•เปลี่ยนชื่อกลุ่มไรแบบนี้• บอทจะไม่เตะเเอทมินทุกกรณี
@@ -3679,11 +3721,12 @@ Viewlastseen   สั่งอ่าน
 
 
 ──────┅═ই۝ई═┅──────
-รับทำเชลบอทกันรัน บอทส่วนตัวคุมตัวเอง
-สนใจติดต่อที่  ѕєʟғвот[Min]κɪcκєʀ
-http://line.me/ti/p/~socool290
-နับთิஏთั้ଏบਹທ  Sirichan V⒑
-📧https://line.me/R/ti/p/%socool290
+รับปรึกษาและสร้างปัญหาในไลน์ทุกรูปแบบ
+รับปรึกษา เรื่องบอทไลน์ เชลบอท และอื่นๆ
+                           สนใจติดต่อ  
+    https://line.me/R/ti/~sosid001
+[รับประกันความ เกรียนแบบ เหี้ยเรียก.พ่อง]
+ในแบบ ฉบับของ พวกเรา..คลับ สะกิดตรีน
 ──────┅═ই۝ई═┅──────
 """)
 
@@ -3893,11 +3936,12 @@ http://line.me/ti/p/~socool290
                 cl.sendMessage(msg)
 
             elif "key" in msg.text:
-                cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[•─ ͜͡✫ѕєʟғвот[Min]κɪcκєʀ ͜͡✫─•] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
+                cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[┅═✥हई✯Ŧ€₳M↭ざะπิஇෆদีʨ✯ईह✥═┅] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 ──────┅═ই۝ई═┅──────
-နับთิஏთั้ଏบਹທ  Sirichan V⒑
-สนใจติดต่อที่  ѕєʟғвот[Min]κɪcκєʀ
-http://line.me/ti/p/~socool290
+          နับთิஏთั้ଏบਹທ  Sirichan V⒑
+                     สนใจติดต่อที่ 
+     ┅ईह•㏒✯°ℓຫຼี้छπี้°✯㏒•ईह┅
+      http://line.me/ti/p/~sosid001
 ──────┅═ই۝ई═┅──────
 """)
 
@@ -4505,7 +4549,7 @@ http://line.me/ti/p/~socool290
                 for i in gid:
                     cl.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"Semua Spam Undangan Telah Di Tolak")
+                    cl.sendText(msg.to,"ห้องรันถูกปฎิเสธ เรียบร้อย...")
                 else:
                     cl.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["Y1 rgroups","ลบรันบอท"]:
@@ -6078,12 +6122,7 @@ http://line.me/ti/p/~socool290
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"""[มีการเชิญสมาชิกเข้าร่วมกลุ่ม]\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n
-──────┅═ই۝ई═┅──────
-နับთิஏთั้ଏบਹທ  Sirichan V⒑
-สนใจติดต่อที่  ѕєʟғвот[Min]κɪcκєʀ
-http://line.me/ti/p/~socool290
-──────┅═ই۝ई═┅──────""")
+		    cl.sendText(op.param1,"""[มีการเชิญสมาชิกเข้าร่วมกลุ่ม]"")
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
